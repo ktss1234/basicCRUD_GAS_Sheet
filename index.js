@@ -74,7 +74,7 @@ function createNewRow(sheet, data) {
 function updateRow(sheet, data) {
   try {
     getKeyfield(sheet).forEach((fieldName, index) => {
-      sheet.getRange(data.row, index + 1).setValue(data[fieldName]);
+      sheet.getRange(Number(data.row) + 1, index + 1).setValue(data[fieldName]);
     });
 
     return "success";
