@@ -14,5 +14,5 @@
 	 - method : POST
     -  data: JSON.stringify({"name": "new name", "phone": "new phone", "address": "new address" }
 - delete :
-	- url  : GAS_URL/exec?action=delete
+	- url  : GAS_URL/exec?action=delete&rowId=x
 	- method : GET
