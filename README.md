@@ -32,3 +32,42 @@ read :
   });
 
 update :
+  var settings = {
+    "url": "GAS_URL/exec?action=create",
+    "method": "POST",
+    "timeout": 0,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "data": JSON.stringify({
+      "row": 1,
+      "name": "นายตจิด",
+      "phone": "045644564",
+      "address": "thailand"
+    }),
+  };
+  
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });
+
+delete :
+  var settings = {
+    "url": "GAS_URL/exec?action=delete",
+    "method": "POST",
+    "timeout": 0,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "data": JSON.stringify({
+      "row": 1,
+      "name": "นายตจิด",
+      "phone": "045644564",
+      "address": "thailand"
+    }),
+  };
+  
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });
+  
