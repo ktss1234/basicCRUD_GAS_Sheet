@@ -1,5 +1,5 @@
-const googleSheetFileID = "1czbEaPn9wnuFWc7PF8yuCERR1Xja5AbEqg1kVmNUBEY";
-const sheetName = "ชีต1";
+const googleSheetFileID = "XXXXX";
+const sheetName = "sheetName";
 const spreadsheet = SpreadsheetApp.openById(googleSheetFileID);
 const sheet = spreadsheet.getSheetByName(sheetName);
 
