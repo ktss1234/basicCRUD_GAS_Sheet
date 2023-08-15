@@ -1,6 +1,6 @@
 # basicCRUD_GAS_Sheet
 
- - เริ่มมต้น สร้างไฟล์ google sheet ที่มี Column เริ่มต้น  CheckDelete	name	phone	address
+ - เริ่มต้น สร้างไฟล์ google sheet ที่มี Column เริ่มต้น  CheckDelete	name	phone	address
  - create :
 	 - url  : GAS_URL/exec?action=create
 	 - method : GET
