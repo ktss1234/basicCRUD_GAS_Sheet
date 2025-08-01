@@ -100,6 +100,7 @@ function getDataWithKey(sheet) {
   const keyField = getKeyfield(sheet);
   // รวมข้อมูลแถวที่ 2 กับ key
   let dataWithKey = [];
+  let rowData ={};
   rawDatas.forEach((value, index) => {
     if (index > 0 && !value[0]) {
       rowData = { row: index };
